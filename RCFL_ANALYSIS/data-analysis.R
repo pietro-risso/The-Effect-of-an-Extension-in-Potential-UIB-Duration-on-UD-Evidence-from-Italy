@@ -328,7 +328,7 @@ CI_df <- data.frame(year,discontinuity,estimates,sds)
 
 
 # CREATING THE PLOT
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\ESTIMATES_CI_PLOT.pdf",
+pdf(file = "<insert own path here>\\ESTIMATES_CI_PLOT.pdf",
     width = 7.5,
     height = 5)
 
@@ -382,7 +382,7 @@ DENSITY14_1 <- rddensity(ASpI_14_1_SUB$ETAM, c = 49)
 
 summary(DENSITY14_1)
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\RCHECK_14_DISC1.pdf",
+pdf(file = "<insert own path here>\\RCHECK_14_DISC1.pdf",
     width = 7.5,
     height = 5)
 
@@ -405,7 +405,7 @@ DENSITY14_2 <- rddensity(ASpI_14_2_SUB$ETAM, c = 54)
 
 summary(DENSITY14_2)
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\RCHECK_14_DISC2.pdf",
+pdf(file = "<insert own path here>\\RCHECK_14_DISC2.pdf",
     width = 7.5,
     height = 5)
 
@@ -429,7 +429,7 @@ DENSITY15_1 <- rddensity(ASpI_15_1_SUB$ETAM, c = 49)
 
 summary(DENSITY15_1)
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\RCHECK_15_DISC1.pdf",
+pdf(file = "<insert own path here>\\RCHECK_15_DISC1.pdf",
     width = 7.5,
     height = 5)
 
@@ -452,7 +452,7 @@ DENSITY15_2 <- rddensity(ASpI_15_2_SUB$ETAM, c = 54)
 
 summary(DENSITY15_2)
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\RCHECK_15_DISC2.pdf",
+pdf(file = "<insert own path here>\\RCHECK_15_DISC2.pdf",
     width = 7.5,
     height = 5)
 
@@ -833,7 +833,7 @@ hz_15_graph <- merge(hz_15_graph, lf_15_55_59)
 
 ### HAZARD PLOTS
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_14.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_14.pdf",
     width = 7.5, height = 5)
 
 hz_14_graph %>% 
@@ -871,7 +871,7 @@ hz_14_graph %>%
 
 dev.off()
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_15.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_15.pdf",
     width = 7.5, height = 5)
 
 hz_15_graph %>% 
@@ -921,7 +921,7 @@ dev.off()
 
 # PLOTS OF SURVIVAL
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\sr_ASpI_14.pdf",
+pdf(file = "<insert own path here>\\sr_ASpI_14.pdf",
     width = 7.5, height = 5)
 
 hz_14_graph %>% 
@@ -959,7 +959,7 @@ hz_14_graph %>%
 
 dev.off()
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\sr_ASpI_15.pdf",
+pdf(file = "<insert own path here>\\sr_ASpI_15.pdf",
     width = 7.5, height = 5)
 
 hz_15_graph %>% 
@@ -1044,7 +1044,7 @@ hz_15_graph <- hz_15_graph %>%
 
 
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_14_2_2.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_14_2_2.pdf",
     width = 7.5, height = 5)
 
 hz_14_graph %>% 
@@ -1085,7 +1085,7 @@ hz_14_graph %>%
 
 dev.off()
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_14_2_3.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_14_2_3.pdf",
     width = 7.5, height = 5)
 
 hz_14_graph %>% 
@@ -1126,7 +1126,7 @@ hz_14_graph %>%
 
 dev.off()
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_15_1_2.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_15_1_2.pdf",
     width = 7.5, height = 5)
 
 hz_15_graph %>% 
@@ -1167,7 +1167,7 @@ hz_15_graph %>%
 
 dev.off()
 
-pdf(file = "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\hz_ASpI_15_2_3.pdf",
+pdf(file = "<insert own path here>\\hz_ASpI_15_2_3.pdf",
     width = 7.5, height = 5)
 
 hz_15_graph %>% 
