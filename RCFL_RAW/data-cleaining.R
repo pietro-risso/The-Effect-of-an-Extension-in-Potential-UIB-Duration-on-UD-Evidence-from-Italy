@@ -79,7 +79,7 @@ RCFLtidying <- function(start_year, end_year){
 ASpI_2014_completed_spells <- RCFLtidying(2014,2020)
 
 write.csv(ASpI_2014_completed_spells,
-          "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\ASpI_2014_completed_spells")
+          "<insert own path here>\\ASpI_2014_completed_spells")
 ################################################################################
 
 
@@ -89,7 +89,7 @@ write.csv(ASpI_2014_completed_spells,
 ASpI_2015_completed_spells <- RCFLtidying(2015,2020)
 
 write.csv(ASpI_2015_completed_spells,
-          "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\ASpI_2015_completed_spells")
+          "<insert own path here>\\ASpI_2015_completed_spells")
 ################################################################################
 
 
@@ -99,7 +99,7 @@ write.csv(ASpI_2015_completed_spells,
 ASpI_2016_completed_spells <- RCFLtidying(2016,2020)
 
 write.csv(ASpI_2016_completed_spells,
-          "C:\\Users\\pmris\\Desktop\\ECON 191\\RCFL_DATA\\RCFL_CLEAN\\ASpI_2016_completed_spells")
+          "<insert own path here>\\ASpI_2016_completed_spells")
 ################################################################################
 
 
